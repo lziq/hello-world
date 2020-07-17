@@ -7,10 +7,14 @@
 2. double quotes: 
    "123"
 <<<<<<< HEAD
+<<<<<<< HEAD
 --  ^^^ string.quoted.double.json
 =======
 --  ^^^ string.quoted.double.ion
 >>>>>>> newFeature
+=======
+--  ^^^ string.quoted.double.ion
+>>>>>>> 646d44736a3a88a1002f6e28043dab410556176e
   "\0\a\b\t\n\f\r\v\"\'\?\\\/\NL\x00\u0000\U00000000"
 --  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ constant.character.escape.ion
   "\c\c\c"
@@ -18,8 +22,11 @@
 
 3. triple quotes: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 646d44736a3a88a1002f6e28043dab410556176e
    '''123'''
 --    ^^^ string.quoted.triple.ion
    '''\0\a\b\t\n\f\r\v\"\'\?\\\/\NL\x00\u0000\U00000000'''
@@ -28,4 +35,7 @@
    123
 -- ^^^ string.quoted.triple.ion
    '''
+<<<<<<< HEAD
 >>>>>>> newFeature
+=======
+>>>>>>> 646d44736a3a88a1002f6e28043dab410556176e
